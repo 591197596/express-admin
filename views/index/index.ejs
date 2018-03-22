@@ -1,0 +1,204 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>麦田网</title>
+    <meta name="description" content="京东JD.COM-专业的综合网上购物商城,销售家电、数码通讯、电脑、家居百货、服装服饰、母婴、图书、食品等数万个品牌优质商品.便捷、诚信的服务，为您提供愉悦的网上购物体验!">
+    <meta name="Keywords" content="网上购物,网上商城,手机,笔记本,电脑,MP3,CD,VCD,DV,相机,数码,配件,手表,存储卡,京东">
+    <link rel="stylesheet" type="text/css" href="/index/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="/index/css/common.css" />
+    <link rel="stylesheet" type="text/css" href="/index/css/index.css" />
+    <link rel="stylesheet" type="text/css" href="/index/css/focus.css" />
+
+</head>
+
+<body>
+<div id="header-wrapper">
+    	<div class="header-inner">
+        	<div class="logo">
+           		<h1>
+                	<a href="#" title="欢迎来到麦田国际">麦田国际</a>
+                </h1> 
+            </div>
+            <div class="nav">
+            	<ul class="clear">
+                	<li>
+                    	<a href="#" style=" background:#f75a53; border-radius:5px 5px 0 0; text-decoration:none;color:#fff; ">网站首页</a>
+                    </li>
+                	<li>
+                    	<a href="/index/about">关于我们</a>
+                    </li>
+                	<li>
+                    	<a href="/index/common">新闻资讯</a>
+                    </li>
+                	<li>
+                    	<a href="/index/successful">成功案例</a>
+                    </li>
+                	<li>
+                    	<a href="/index/service">尊享服务</a>
+                    </li>
+                	<li>
+                    	<a href="#">招商加盟</a>
+                    </li>
+                	<li>
+                    	<a href="#">联系我们</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+</div>
+<div id="banner-wrapper">
+    	<div class="banner">
+            <ul class="oUl">
+                <%for(var i=0;i<banner.length;i++){%>
+                <li>
+                    <a href="#">
+                        <img src="/<%=banner[i].url%>" alt=""/>
+                    </a>
+                </li>
+                <%}%>
+            </ul>
+            <ul class="smallUl">
+                <%for(var i=0;i<banner.length;i++){%>
+                <li>
+
+                </li>
+                <%}%>
+            </ul>
+            <span class="gt"><</span>
+            <span class="lt">></span>
+
+        </div>
+    
+</div>
+<div id="main">
+        <div id="main_top-wrapper">
+        
+           <div class="main_top">
+               <h2>战略合作 Strategic partners</h2>
+               <h3>真诚、共赢、无微不至</h3>
+               <ul class="clear">
+               <li><a href="#"><img src="images/mian1_image1.jpg" /></a></li>
+               <li><a href="#"><img src="images/mian1_image2.jpg" /></a></li>
+               <li><a href="#"><img src="images/mian1_image3.jpg" /></a></li>
+               <li><a href="#"><img src="images/mian1_image4.jpg" /></a></li>
+               <li><a href="#"><img src="images/mian1_image5.jpg" /></a></li>
+               <li><a href="#"><img src="images/mian1_image6.jpg" /></a></li>
+               <li><a href="#"><img src="images/mian1_image7.jpg" /></a></li>
+               <li><a href="#"><img src="images/mian1_image8.jpg" /></a></li>
+               <li><a href="#"><img src="images/mian1_image9.jpg" /></a></li>
+               <li><a href="#"><img src="images/mian1_image10.jpg" /></a></li>
+               <li><a href="#"><img src="images/mian1_image11.jpg" /></a></li>
+               <li><a href="#"><img src="images/mian1_image12.jpg" /></a></li>
+
+               </ul>
+           </div>
+        </div>
+        <div id="main_center-wrapper">
+               <div class="main_center">
+              
+                   <h2>我们的优势 Our Advantages </h2>
+                   <h3>独一无二的设计、造国际品质的产品，行无微不至的服务</h3>
+                   <ul>
+                   <li><h3>我们的设计 Our Design</h3><h4>从实地到方案敲定再到设计出图，每一步都有优秀的设计团队全程跟踪，为您打造出最合适的作品是最诚恳的义务。</h4><img src="images/mian2_image1.jpg" /></li>
+                   <li><h3>我们的设计 Our Design</h3><h4>从实地到方案敲定再到设计出图，每一步都有优秀的设计团队全程跟踪，为您打造出最合适的作品是最诚恳的义务。</h4><img src="images/mian2_image2.jpg" /></li>
+                   <li style=" margin-right:0;"><h3>我们的设计 Our Design</h3><h4>从实地到方案敲定再到设计出图，每一步都有优秀的设计团队全程跟踪，为您打造出最合适的作品是最诚恳的义务。</h4><img src="images/mian2_image3.jpg" /></li>
+                   
+                   </ul>
+               </div>
+        </div>
+        <div id="main_bottom-wrapper">
+                  <div class="main_bottom">
+                       <h2>原创案例 Successful Case </h2>
+                       <h3>始终以建设温馨、和谐的家园、提升你的居家生活品味为己任。</h3>
+                       <div class="main_bottom-nav clear">
+                       <%for(var i=0;i<newscate.length;i++){%>
+                       <a class="newsdata" data-id="<%=newscate[i]._id%>"><%=newscate[i].name%></a>
+                           <%}%>
+                       </div>
+                       <div class="main_bottom-table">
+                           <ul  class="clear">
+                            <%for(var i=0;i<news.length;i++){%>
+                               <%if(news[i].cid==newscate[0]._id){%>
+                           <li><img width="300px" height="200px" src="/<%=news[i].pic%>" alt="&nbsp;"/></li>
+                               <%}%>
+                           <%}%>
+                           </ul>
+
+                       </div>
+
+                  </div>
+
+        </div>
+</div>
+
+
+        
+        
+<div id="footer_nav-wrapper">
+             <div class="footer_nav clear">
+                 <dl>
+                     <dt>公司新闻 Company News</dt>
+                     <dd>一款APP从设计稿到切图过程全方位揭秘<span>10-10</span></dd>
+                     <dd>一款APP从设计稿到切图过程全方位揭秘<span>10-10</span></dd>
+                     <dd>一款APP从设计稿到切图过程全方位揭秘<span>10-10</span></dd>
+                     <dd>一款APP从设计稿到切图过程全方位揭秘<span>10-10</span></dd>
+                     <dd>一款APP从设计稿到切图过程全方位揭秘<span>10-10</span></dd>
+                     <dd>一款APP从设计稿到切图过程全方位揭秘<span>10-10</span></dd>
+                     <a href="#">MORE INFO →</a>
+                     
+                 </dl>
+                  <dl>
+                     <dt>公司新闻 Company News</dt>
+                     <dd>一款APP从设计稿到切图过程全方位揭秘<span>10-10</span></dd>
+                     <dd>一款APP从设计稿到切图过程全方位揭秘<span>10-10</span></dd>
+                     <dd>一款APP从设计稿到切图过程全方位揭秘<span>10-10</span></dd>
+                     <dd>一款APP从设计稿到切图过程全方位揭秘<span>10-10</span></dd>
+                     <dd>一款APP从设计稿到切图过程全方位揭秘<span>10-10</span></dd>
+                     <dd>一款APP从设计稿到切图过程全方位揭秘<span>10-10</span></dd>
+                     <a href="#">MORE INFO →</a>
+                     
+                 </dl>
+                  <dl style=" margin-right:0;">
+                     <dt>公司新闻 Company News</dt>
+                     <dd>一款APP从设计稿到切图过程全方位揭秘<span>10-10</span></dd>
+                     <dd>一款APP从设计稿到切图过程全方位揭秘<span>10-10</span></dd>
+                     <dd>一款APP从设计稿到切图过程全方位揭秘<span>10-10</span></dd>
+                     <dd>一款APP从设计稿到切图过程全方位揭秘<span>10-10</span></dd>
+                     <dd>一款APP从设计稿到切图过程全方位揭秘<span>10-10</span></dd>
+                     <dd>一款APP从设计稿到切图过程全方位揭秘<span>10-10</span></dd>
+                     <a href="#">MORE INFO →</a>
+                     
+                 </dl>
+        </div>
+</div>
+        
+<div id="footer-wrapper">
+            <div class="footer-inner">
+                <p>
+                    <a href="#">网站首页</a>&nbsp;&nbsp;|&nbsp;
+                    <a href="#">关于我们</a>&nbsp;&nbsp;|&nbsp;
+                    <a href="#">产品展示</a>&nbsp;&nbsp;|&nbsp;
+                    <a href="#">客户案例</a>&nbsp;&nbsp;|&nbsp;
+                    <a href="#">新闻资讯</a>&nbsp;&nbsp;|&nbsp;
+                    <a href="#">帮助中心</a>&nbsp;&nbsp;|&nbsp;
+                    <a href="#">解决方案</a>&nbsp;&nbsp;|&nbsp;
+                    <a href="#">联系我们</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                </p>
+                <p>Copyright © 2002-2015上海机械设备服务有限公司 版权所有 Power by DedeCms</p>
+                <p>电话：15918779820 E-mail：89898981@qq.com 地址：上海市沙河广园东路1858新天地服装城</p>
+            </div>
+</div>
+
+    <script type="text/javascript" src="/static/bootstrap/js/jquery-1.12.3.js"></script>
+    <script type="text/javascript" src="/static/index/js/focus.js"></script>
+      <script type="text/javascript">
+
+            $(function() {
+                focusApp.init();
+
+            });
+      </script>
+    
+</body>
+</html>

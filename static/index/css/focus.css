@@ -1,0 +1,90 @@
+.banner{
+    overflow: hidden;
+    position: relative;
+    height: 457px;
+    width: 1140px;
+}
+.banner .oUl{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.banner .oUl li{
+    float: left;
+    height: 457px;
+    width: 1140px;
+}
+.banner .oUl li a{
+    float: left;
+    display: block;
+    height: 457px;
+    width: 1140px;
+}
+.banner .oUl li a img{
+    float: left;
+    display: block;
+    height: 457px;
+    width: 1140px;
+}
+.banner .smallUl{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.banner .smallUl li{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    float: left;
+    background: rgba(255,255,255,0.5);
+    text-align: center;
+    line-height: 20px;
+    margin: 15px;
+    color: #000;
+    font-weight: 900;
+    cursor: pointer;
+}
+.banner .smallUl .active{
+    background-color:red;
+}
+.gt,.lt{
+    cursor: pointer;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+    line-height: 80px;
+    display: block;
+    width: 50px;
+    height: 80px;
+    background: rgba(0,0,0,0.2);
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    display: none;
+}
+.gt{
+    left: 0;
+}
+.lt{
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
